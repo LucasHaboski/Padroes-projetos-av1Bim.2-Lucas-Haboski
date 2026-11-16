@@ -23,7 +23,7 @@ public abstract class Passagem {
     }
 
     public void imprimirResumo() {
-        System.out.println("=== Resumo da Emissão ===");
+        System.out.println("Resumo da Emissão: ");
         System.out.println("Modal: " + getModal());
         System.out.println("Passageiro: " + nomePassageiro);
         System.out.printf("Valor da tarifa: R$ %.2f%n", valorTarifa);

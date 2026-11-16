@@ -18,6 +18,6 @@ public class PassagemAerea extends Passagem {
 
     @Override
     public List<String> getDocumentosExigidos() {
-        return List.of("Documento de identidade com foto", "Bilhete eletrônico (e-ticket)");
+        return List.of("CPF Eletronico ou Fisico", "Bilhete eletrônico (e-ticket)");
     }
 }

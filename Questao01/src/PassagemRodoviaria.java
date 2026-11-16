@@ -18,6 +18,6 @@ public class PassagemRodoviaria extends Passagem {
 
     @Override
     public List<String> getDocumentosExigidos() {
-        return List.of("Documento com CPF Eletronico ou Fisico");
+        return List.of("Documento de identidade com foto");
     }
 }

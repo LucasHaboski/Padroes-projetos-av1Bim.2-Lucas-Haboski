@@ -18,6 +18,6 @@ public class PassagemFerroviaria extends Passagem {
 
     @Override
     public List<String> getDocumentosExigidos() {
-        return List.of("Documento com CPF Eletronico ou Fisico", "Comprovante de reserva");
+        return List.of("Documento de identidade com foto", "Comprovante de reserva");
     }
 }
